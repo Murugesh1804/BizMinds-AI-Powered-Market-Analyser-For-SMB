@@ -1,0 +1,436 @@
+2025-04-20 15:32:06,418 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 15:32:07,829 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.242:5000
+2025-04-20 15:32:07,832 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-20 15:32:07,867 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 15:32:15,537 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 15:32:15,686 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 15:32:15,747 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+{"timestamp": "2025-04-20T15:33:33.341743", "method": "GET", "url": "http://127.0.0.1:5000/", "path": "/", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-20 15:33:33,367 - market_research_api - INFO - GET /
+2025-04-20 15:33:33,440 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 15:33:33] "GET / HTTP/1.1" 200 -
+{"timestamp": "2025-04-20T15:33:34.849058", "method": "GET", "url": "http://127.0.0.1:5000/favicon.ico", "path": "/favicon.ico", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-20 15:33:34,851 - market_research_api - INFO - GET /favicon.ico
+2025-04-20 15:33:34,854 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 15:33:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+{"timestamp": "2025-04-20T15:33:43.197735", "method": "GET", "url": "http://127.0.0.1:5000/docs", "path": "/docs", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-20 15:33:43,200 - market_research_api - INFO - GET /docs
+2025-04-20 15:33:43,206 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 15:33:43] "[33mGET /docs HTTP/1.1[0m" 404 -
+2025-04-20 15:36:31,127 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 15:36:31,582 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 15:36:39,523 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 15:36:39,708 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 15:36:39,723 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+{"timestamp": "2025-04-20T15:37:54.599276", "method": "POST", "url": "http://localhost:5000/competitor-insights", "path": "/competitor-insights", "params": {}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-20 15:37:54,832 - market_research_api - INFO - POST /competitor-insights
+2025-04-20 15:37:54,834 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 15:37:54] "[31m[1mPOST /competitor-insights HTTP/1.1[0m" 405 -
+{"timestamp": "2025-04-20T15:38:01.156684", "method": "GET", "url": "http://localhost:5000/competitor-insights", "path": "/competitor-insights", "params": {}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-20 15:38:01,158 - market_research_api - INFO - GET /competitor-insights
+2025-04-20 15:38:01,293 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 15:38:01] "[35m[1mGET /competitor-insights HTTP/1.1[0m" 500 -
+2025-04-20 15:38:21,296 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 15:38:21,604 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 15:38:25,481 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 15:38:26,725 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 15:38:26,804 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+{"timestamp": "2025-04-20T15:38:32.840899", "method": "GET", "url": "http://localhost:5000/get_competitor_insights?location=Chennai&category=restaurant%0A", "path": "/get_competitor_insights", "params": {"location": "Chennai", "category": "restaurant\n"}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-20 15:38:32,845 - market_research_api - INFO - GET /get_competitor_insights
+2025-04-20 15:38:32,847 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 15:38:32] "[33mGET /get_competitor_insights?location=Chennai&category=restaurant%0A HTTP/1.1[0m" 404 -
+{"timestamp": "2025-04-20T15:38:52.518199", "method": "GET", "url": "http://localhost:5000/competitor-insights?location=Chennai&category=restaurant%0A", "path": "/competitor-insights", "params": {"location": "Chennai", "category": "restaurant\n"}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-20 15:38:52,520 - market_research_api - INFO - GET /competitor-insights
+2025-04-20 15:38:53,851 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 15:38:53] "GET /competitor-insights?location=Chennai&category=restaurant%0A HTTP/1.1" 200 -
+{"timestamp": "2025-04-20T15:39:39.865333", "method": "GET", "url": "http://localhost:5000/competitor-insights?location=Porur&category=restaurant%0A", "path": "/competitor-insights", "params": {"location": "Porur", "category": "restaurant\n"}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-20 15:39:40,099 - market_research_api - INFO - GET /competitor-insights
+2025-04-20 15:39:40,907 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 15:39:40] "GET /competitor-insights?location=Porur&category=restaurant%0A HTTP/1.1" 200 -
+{"timestamp": "2025-04-20T15:40:19.292893", "method": "GET", "url": "http://localhost:5000/competitor-insights?location=Porur&category=TeaShop%0A", "path": "/competitor-insights", "params": {"location": "Porur", "category": "TeaShop\n"}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-20 15:40:19,528 - market_research_api - INFO - GET /competitor-insights
+2025-04-20 15:40:20,285 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 15:40:20] "GET /competitor-insights?location=Porur&category=TeaShop%0A HTTP/1.1" 200 -
+{"timestamp": "2025-04-20T15:42:57.529669", "method": "GET", "url": "http://localhost:5000/heatmap?location=Porur&category=TeaShop%0A", "path": "/heatmap", "params": {"location": "Porur", "category": "TeaShop\n"}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-20 15:42:57,766 - market_research_api - INFO - GET /heatmap
+2025-04-20 15:42:59,055 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 15:42:59] "GET /heatmap?location=Porur&category=TeaShop%0A HTTP/1.1" 200 -
+2025-04-20 15:52:25,499 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 15:52:25,887 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 15:52:31,307 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 15:52:31,370 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 15:52:31,386 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+2025-04-20 15:52:55,092 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 15:52:55,386 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 15:52:59,493 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 15:52:59,667 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 15:52:59,747 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+2025-04-20 15:53:01,285 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 15:53:01,614 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 15:53:04,535 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 15:53:04,680 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 15:53:04,715 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+2025-04-20 15:53:07,324 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 15:53:07,522 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 15:53:09,952 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 15:53:09,982 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 15:53:09,993 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+2025-04-20 15:53:14,807 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 15:53:15,280 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 15:53:19,824 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 15:53:19,934 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 15:53:19,958 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+2025-04-20 15:53:35,377 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 15:53:35,586 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 15:53:38,186 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 15:53:38,218 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 15:53:38,228 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+2025-04-20 15:54:29,048 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 15:54:29,776 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 15:57:02,484 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 15:57:03,389 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.242:5000
+2025-04-20 15:57:03,390 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-20 15:57:03,393 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 15:57:05,141 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 15:57:05,193 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 15:57:05,205 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+2025-04-20 15:57:49,720 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 15:57:50,162 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 15:57:55,068 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 15:57:55,448 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 15:57:55,495 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+2025-04-20 15:58:26,878 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 15:58:27,459 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 15:58:30,386 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 15:58:30,466 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 15:58:30,480 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+2025-04-20 15:58:33,286 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 15:58:34,002 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 15:58:38,323 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 15:58:38,393 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 15:58:38,423 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+2025-04-20 15:59:13,940 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 15:59:14,144 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 15:59:18,925 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 15:59:19,045 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 15:59:19,053 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+{"timestamp": "2025-04-20T15:59:25.390154", "method": "GET", "url": "http://localhost:5000/landmark-mapper%0A", "path": "/landmark-mapper\n", "params": {}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-20 15:59:25,399 - market_research_api - INFO - GET /landmark-mapper
+
+2025-04-20 15:59:25,402 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 15:59:25] "[33mGET /landmark-mapper%0A HTTP/1.1[0m" 404 -
+{"timestamp": "2025-04-20T15:59:39.591998", "method": "GET", "url": "http://localhost:5000/landmark-mapper", "path": "/landmark-mapper", "params": {}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-20 15:59:39,593 - market_research_api - INFO - GET /landmark-mapper
+2025-04-20 15:59:39,596 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 15:59:39] "[31m[1mGET /landmark-mapper HTTP/1.1[0m" 405 -
+{"timestamp": "2025-04-20T15:59:48.826208", "method": "POST", "url": "http://localhost:5000/landmark-mapper", "path": "/landmark-mapper", "params": {}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-20 15:59:48,828 - market_research_api - INFO - POST /landmark-mapper
+2025-04-20 15:59:50,675 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 15:59:50] "[35m[1mPOST /landmark-mapper HTTP/1.1[0m" 500 -
+2025-04-20 16:01:07,642 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 16:01:08,257 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 16:01:13,744 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 16:01:13,801 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 16:01:13,810 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+{"timestamp": "2025-04-20T16:01:15.805581", "method": "POST", "url": "http://localhost:5000/landmark-mapper", "path": "/landmark-mapper", "params": {}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-20 16:01:15,810 - market_research_api - INFO - POST /landmark-mapper
+2025-04-20 16:01:18,149 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 16:01:18] "POST /landmark-mapper HTTP/1.1" 200 -
+2025-04-20 16:13:49,478 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 16:13:49,799 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 16:13:54,086 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 16:13:54,141 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 16:13:54,161 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+{"timestamp": "2025-04-20T16:14:04.455621", "method": "POST", "url": "http://localhost:5000/landmark-mapper", "path": "/landmark-mapper", "params": {}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-20 16:14:04,457 - market_research_api - INFO - POST /landmark-mapper
+2025-04-20 16:14:07,285 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 16:14:07] "POST /landmark-mapper HTTP/1.1" 200 -
+2025-04-20 16:23:48,368 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 16:23:48,804 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 16:23:51,445 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 16:23:51,475 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 16:23:51,484 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+2025-04-20 16:28:29,525 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 16:28:29,814 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 16:28:32,854 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 16:28:32,878 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 16:28:32,888 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+2025-04-20 16:28:36,291 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 16:28:36,551 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 16:28:38,698 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 16:28:38,779 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 16:28:38,789 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+{"timestamp": "2025-04-20T16:30:07.507919", "method": "POST", "url": "http://localhost:5000/business-trends", "path": "/business-trends", "params": {}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-20 16:30:07,511 - market_research_api - INFO - POST /business-trends
+2025-04-20 16:30:13,432 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 16:30:13] "[35m[1mPOST /business-trends HTTP/1.1[0m" 500 -
+2025-04-20 16:31:08,082 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 16:31:08,887 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 16:31:15,698 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 16:31:15,774 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 16:31:15,787 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+{"timestamp": "2025-04-20T16:31:15.902421", "method": "POST", "url": "http://localhost:5000/business-trends", "path": "/business-trends", "params": {}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-20 16:31:15,905 - market_research_api - INFO - POST /business-trends
+2025-04-20 16:31:21,259 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 16:31:21] "POST /business-trends HTTP/1.1" 200 -
+{"timestamp": "2025-04-20T16:32:32.006757", "method": "POST", "url": "http://localhost:5000/business-trends", "path": "/business-trends", "params": {}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-20 16:32:32,007 - market_research_api - INFO - POST /business-trends
+2025-04-20 16:32:37,404 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 16:32:37] "POST /business-trends HTTP/1.1" 200 -
+{"timestamp": "2025-04-20T16:33:10.903282", "method": "POST", "url": "http://localhost:5000/business-trends", "path": "/business-trends", "params": {}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-20 16:33:11,140 - market_research_api - INFO - POST /business-trends
+2025-04-20 16:33:17,360 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 16:33:17] "POST /business-trends HTTP/1.1" 200 -
+2025-04-20 16:41:14,834 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 16:41:16,532 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 16:48:02,268 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 16:48:02,278 - market_research_api - ERROR - Failed to connect to MongoDB: Username and password must be escaped according to RFC 3986, use urllib.parse.quote_plus
+2025-04-20 16:48:02,287 - market_research_api - WARNING - OPENAI_API_KEY not set. Strategy generator will not function correctly.
+2025-04-20 16:48:02,288 - market_research_api - WARNING - MongoDB not connected. Data persistence will not be available.
+2025-04-20 16:48:03,218 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.242:5000
+2025-04-20 16:48:03,220 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-20 16:48:03,224 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 16:48:05,371 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 16:48:05,376 - market_research_api - ERROR - Failed to connect to MongoDB: Username and password must be escaped according to RFC 3986, use urllib.parse.quote_plus
+2025-04-20 16:48:05,387 - market_research_api - WARNING - OPENAI_API_KEY not set. Strategy generator will not function correctly.
+2025-04-20 16:48:05,388 - market_research_api - WARNING - MongoDB not connected. Data persistence will not be available.
+2025-04-20 16:48:05,431 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 16:48:05,445 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+2025-04-20 16:52:23,635 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 16:52:24,074 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 16:52:33,090 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 16:52:33,102 - market_research_api - ERROR - Failed to connect to MongoDB: Username and password must be escaped according to RFC 3986, use urllib.parse.quote_plus
+2025-04-20 16:52:33,120 - market_research_api - WARNING - MongoDB not connected. Data persistence will not be available.
+2025-04-20 16:52:33,202 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 16:52:33,216 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+2025-04-20 16:56:40,223 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 16:56:45,024 - market_research_api - INFO - Successfully connected to MongoDB
+2025-04-20 16:56:46,307 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.242:5000
+2025-04-20 16:56:46,309 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-20 16:56:46,313 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 16:56:48,254 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 16:56:52,835 - market_research_api - INFO - Successfully connected to MongoDB
+2025-04-20 16:56:52,893 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 16:56:52,906 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+{"timestamp": "2025-04-20T17:00:06.566402", "method": "POST", "url": "http://localhost:5000/landmark-mapper", "path": "/landmark-mapper", "params": {}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-20 17:00:06,800 - market_research_api - INFO - POST /landmark-mapper
+2025-04-20 17:00:10,343 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 17:00:10] "POST /landmark-mapper HTTP/1.1" 200 -
+2025-04-20 19:15:44,972 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-20 19:15:47,292 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 19:16:04,623 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 19:16:04,683 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-20 19:16:04,691 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-20 19:16:05,723 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.242:5000
+2025-04-20 19:16:05,724 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-20 19:16:05,730 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 19:16:07,222 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-20 19:16:07,225 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-20 19:16:07,230 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-20 19:16:07,253 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 19:16:07,262 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+{"timestamp": "2025-04-20T19:19:12.326794", "method": "POST", "url": "http://localhost:5000/landmark-mapper", "path": "/landmark-mapper", "params": {}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-20 19:19:12,598 - market_research_api - INFO - POST /landmark-mapper
+2025-04-20 19:19:15,560 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 19:19:15] "POST /landmark-mapper HTTP/1.1" 200 -
+{"timestamp": "2025-04-20T21:21:08.940144", "method": "POST", "url": "http://localhost:5000/generate-strategy", "path": "/generate-strategy", "params": {}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-20 21:21:08,988 - market_research_api - INFO - POST /generate-strategy
+2025-04-20 21:21:09,003 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 21:21:09] "[31m[1mPOST /generate-strategy HTTP/1.1[0m" 400 -
+{"timestamp": "2025-04-20T21:21:23.865874", "method": "POST", "url": "http://localhost:5000/generate-strategy", "path": "/generate-strategy", "params": {}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-20 21:21:23,868 - market_research_api - INFO - POST /generate-strategy
+2025-04-20 21:21:23,868 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2025 21:21:23] "[31m[1mPOST /generate-strategy HTTP/1.1[0m" 400 -
+2025-04-21 11:00:13,195 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-21 11:00:13,257 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 11:00:13,270 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 11:00:15,414 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.137.15:5000
+2025-04-21 11:00:15,418 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-21 11:00:15,472 - werkzeug - INFO -  * Restarting with stat
+2025-04-21 11:00:16,998 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-21 11:00:17,001 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 11:00:17,022 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 11:00:17,055 - werkzeug - WARNING -  * Debugger is active!
+2025-04-21 11:00:17,068 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+2025-04-21 11:44:08,455 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-21 11:44:08,470 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 11:44:08,497 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 11:44:10,500 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.137.15:5000
+2025-04-21 11:44:10,500 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-21 11:44:10,512 - werkzeug - INFO -  * Restarting with stat
+2025-04-21 11:44:11,747 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-21 11:44:11,752 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 11:44:11,762 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 11:44:11,804 - werkzeug - WARNING -  * Debugger is active!
+2025-04-21 11:44:11,814 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+{"timestamp": "2025-04-21T11:50:20.544370", "method": "OPTIONS", "url": "http://localhost:5000/register", "path": "/register", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 11:50:20,587 - market_research_api - INFO - OPTIONS /register
+2025-04-21 11:50:20,588 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 11:50:20] "OPTIONS /register HTTP/1.1" 200 -
+{"timestamp": "2025-04-21T11:50:20.796380", "method": "POST", "url": "http://localhost:5000/register", "path": "/register", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 11:50:20,797 - market_research_api - INFO - POST /register
+2025-04-21 11:50:20,853 - market_research_api - ERROR - Registration error: module 'jwt' has no attribute 'encode'
+2025-04-21 11:50:20,855 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 11:50:20] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+{"timestamp": "2025-04-21T11:53:43.942048", "method": "OPTIONS", "url": "http://localhost:5000/register", "path": "/register", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 11:53:43,943 - market_research_api - INFO - OPTIONS /register
+2025-04-21 11:53:43,952 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 11:53:43] "OPTIONS /register HTTP/1.1" 200 -
+{"timestamp": "2025-04-21T11:53:44.204504", "method": "POST", "url": "http://localhost:5000/register", "path": "/register", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 11:53:44,205 - market_research_api - INFO - POST /register
+2025-04-21 11:53:44,241 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 11:53:44] "[31m[1mPOST /register HTTP/1.1[0m" 409 -
+{"timestamp": "2025-04-21T11:59:41.890525", "method": "POST", "url": "http://localhost:5000/register", "path": "/register", "params": {}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-21 11:59:42,123 - market_research_api - INFO - POST /register
+2025-04-21 11:59:42,188 - market_research_api - ERROR - Registration error: module 'jwt' has no attribute 'encode'
+2025-04-21 11:59:42,190 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 11:59:42] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2025-04-21 12:02:26,989 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\myenv\\lib\\site-packages\\jwt\\exceptions.py', reloading
+2025-04-21 12:02:28,019 - werkzeug - INFO -  * Restarting with stat
+2025-04-21 12:02:40,640 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-21 12:02:40,652 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 12:02:40,666 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 12:02:40,729 - werkzeug - WARNING -  * Debugger is active!
+2025-04-21 12:02:40,737 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+{"timestamp": "2025-04-21T12:02:40.872753", "method": "POST", "url": "http://localhost:5000/register", "path": "/register", "params": {}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-21 12:02:40,874 - market_research_api - INFO - POST /register
+2025-04-21 12:02:40,880 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 12:02:40] "[31m[1mPOST /register HTTP/1.1[0m" 409 -
+{"timestamp": "2025-04-21T12:03:59.789501", "method": "OPTIONS", "url": "http://localhost:5000/login", "path": "/login", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 12:03:59,790 - market_research_api - INFO - OPTIONS /login
+2025-04-21 12:03:59,793 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 12:03:59] "OPTIONS /login HTTP/1.1" 200 -
+{"timestamp": "2025-04-21T12:04:00.028997", "method": "POST", "url": "http://localhost:5000/login", "path": "/login", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 12:04:00,029 - market_research_api - INFO - POST /login
+2025-04-21 12:04:00,041 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 12:04:00] "POST /login HTTP/1.1" 200 -
+{"timestamp": "2025-04-21T12:04:05.079881", "method": "OPTIONS", "url": "http://localhost:5000/strategies", "path": "/strategies", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 12:04:05,082 - market_research_api - INFO - OPTIONS /strategies
+{"timestamp": "2025-04-21T12:04:05.083697", "method": "OPTIONS", "url": "http://localhost:5000/strategies", "path": "/strategies", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 12:04:05,084 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 12:04:05] "OPTIONS /strategies HTTP/1.1" 200 -
+2025-04-21 12:04:05,089 - market_research_api - INFO - OPTIONS /strategies
+2025-04-21 12:04:05,089 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 12:04:05] "OPTIONS /strategies HTTP/1.1" 200 -
+{"timestamp": "2025-04-21T12:04:05.341929", "method": "GET", "url": "http://localhost:5000/strategies", "path": "/strategies", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 12:04:05,342 - market_research_api - INFO - GET /strategies
+2025-04-21 12:04:05,345 - market_research_api - ERROR - Error listing strategies: no such column: user_id
+2025-04-21 12:04:05,346 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 12:04:05] "[35m[1mGET /strategies HTTP/1.1[0m" 500 -
+{"timestamp": "2025-04-21T12:04:05.404261", "method": "GET", "url": "http://localhost:5000/strategies", "path": "/strategies", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 12:04:05,405 - market_research_api - INFO - GET /strategies
+2025-04-21 12:04:05,408 - market_research_api - ERROR - Error listing strategies: no such column: user_id
+2025-04-21 12:04:05,409 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 12:04:05] "[35m[1mGET /strategies HTTP/1.1[0m" 500 -
+2025-04-21 12:55:31,270 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-21 12:55:31,306 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 12:55:31,335 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 12:55:31,445 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.137.15:5000
+2025-04-21 12:55:31,446 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-21 12:55:31,450 - werkzeug - INFO -  * Restarting with stat
+2025-04-21 12:55:32,792 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-21 12:55:32,795 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 12:55:32,804 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 12:55:32,825 - werkzeug - WARNING -  * Debugger is active!
+2025-04-21 12:55:32,834 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+{"timestamp": "2025-04-21T12:55:38.755037", "method": "OPTIONS", "url": "http://localhost:5000/login", "path": "/login", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 12:55:38,825 - market_research_api - INFO - OPTIONS /login
+2025-04-21 12:55:38,827 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 12:55:38] "OPTIONS /login HTTP/1.1" 200 -
+{"timestamp": "2025-04-21T12:55:39.018246", "method": "POST", "url": "http://localhost:5000/login", "path": "/login", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 12:55:39,019 - market_research_api - INFO - POST /login
+2025-04-21 12:55:39,022 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 12:55:39] "POST /login HTTP/1.1" 200 -
+{"timestamp": "2025-04-21T12:55:43.707843", "method": "OPTIONS", "url": "http://localhost:5000/strategies", "path": "/strategies", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+{"timestamp": "2025-04-21T12:55:43.708928", "method": "OPTIONS", "url": "http://localhost:5000/strategies", "path": "/strategies", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 12:55:43,710 - market_research_api - INFO - OPTIONS /strategies
+2025-04-21 12:55:43,710 - market_research_api - INFO - OPTIONS /strategies
+2025-04-21 12:55:43,711 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 12:55:43] "OPTIONS /strategies HTTP/1.1" 200 -
+2025-04-21 12:55:43,722 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 12:55:43] "OPTIONS /strategies HTTP/1.1" 200 -
+{"timestamp": "2025-04-21T12:55:43.967304", "method": "GET", "url": "http://localhost:5000/strategies", "path": "/strategies", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 12:55:43,968 - market_research_api - INFO - GET /strategies
+2025-04-21 12:55:43,970 - market_research_api - ERROR - Error listing strategies: no such column: user_id
+2025-04-21 12:55:43,971 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 12:55:43] "[35m[1mGET /strategies HTTP/1.1[0m" 500 -
+{"timestamp": "2025-04-21T12:55:44.066037", "method": "GET", "url": "http://localhost:5000/strategies", "path": "/strategies", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 12:55:44,068 - market_research_api - INFO - GET /strategies
+2025-04-21 12:55:44,069 - market_research_api - ERROR - Error listing strategies: no such column: user_id
+2025-04-21 12:55:44,071 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 12:55:44] "[35m[1mGET /strategies HTTP/1.1[0m" 500 -
+2025-04-21 14:21:09,671 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-21 14:21:09,681 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 14:21:09,703 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 14:21:11,782 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.137.15:5000
+2025-04-21 14:21:11,782 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-21 14:21:11,784 - werkzeug - INFO -  * Restarting with stat
+2025-04-21 14:21:13,243 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-21 14:21:13,248 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 14:21:13,277 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 14:21:13,312 - werkzeug - WARNING -  * Debugger is active!
+2025-04-21 14:21:13,320 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+{"timestamp": "2025-04-21T14:21:48.701332", "method": "POST", "url": "http://localhost:5000/generate-strategy-business", "path": "/generate-strategy-business", "params": {}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-21 14:21:48,779 - market_research_api - INFO - POST /generate-strategy-business
+2025-04-21 14:21:48,781 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 14:21:48] "[31m[1mPOST /generate-strategy-business HTTP/1.1[0m" 401 -
+2025-04-21 14:22:07,051 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-21 14:22:07,730 - werkzeug - INFO -  * Restarting with stat
+2025-04-21 14:22:10,429 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-21 14:22:10,432 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 14:22:10,444 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 14:22:10,464 - werkzeug - WARNING -  * Debugger is active!
+2025-04-21 14:22:10,469 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+{"timestamp": "2025-04-21T14:22:10.551466", "method": "POST", "url": "http://localhost:5000/generate-strategy-business", "path": "/generate-strategy-business", "params": {}, "client_ip": "127.0.0.1", "user_agent": "PostmanRuntime/7.43.3"}
+2025-04-21 14:22:10,552 - market_research_api - INFO - POST /generate-strategy-business
+2025-04-21 14:22:10,560 - market_research_api - ERROR - Business strategy generation error: 'Request' object has no attribute 'user_id'
+2025-04-21 14:22:10,561 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 14:22:10] "[35m[1mPOST /generate-strategy-business HTTP/1.1[0m" 500 -
+2025-04-21 14:22:23,844 - werkzeug - INFO -  * Detected change in 'M:\\Mozohack\\market_research_api\\main.py', reloading
+2025-04-21 14:22:24,048 - werkzeug - INFO -  * Restarting with stat
+2025-04-21 14:22:25,923 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-21 14:22:25,928 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 14:22:25,945 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 14:22:25,990 - werkzeug - WARNING -  * Debugger is active!
+2025-04-21 14:22:26,009 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+{"timestamp": "2025-04-21T14:25:41.174349", "method": "OPTIONS", "url": "http://localhost:5000/generate-strategy", "path": "/generate-strategy", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 14:25:41,175 - market_research_api - INFO - OPTIONS /generate-strategy
+2025-04-21 14:25:41,178 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 14:25:41] "OPTIONS /generate-strategy HTTP/1.1" 200 -
+{"timestamp": "2025-04-21T14:25:41.523649", "method": "POST", "url": "http://localhost:5000/generate-strategy", "path": "/generate-strategy", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 14:25:41,524 - market_research_api - INFO - POST /generate-strategy
+2025-04-21 14:25:41,541 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 14:25:41] "[31m[1mPOST /generate-strategy HTTP/1.1[0m" 401 -
+2025-04-21 14:25:59,259 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-21 14:25:59,262 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 14:25:59,271 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 14:26:01,271 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.137.15:5000
+2025-04-21 14:26:01,273 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-21 14:26:01,279 - werkzeug - INFO -  * Restarting with stat
+2025-04-21 14:26:02,628 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-21 14:26:02,632 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 14:26:02,644 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 14:26:02,667 - werkzeug - WARNING -  * Debugger is active!
+2025-04-21 14:26:02,676 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+2025-04-21 14:45:36,004 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-21 14:45:36,013 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 14:45:36,027 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 14:45:37,967 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.137.15:5000
+2025-04-21 14:45:37,967 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-21 14:45:37,970 - werkzeug - INFO -  * Restarting with stat
+2025-04-21 14:45:39,353 - googlemaps.client - INFO - API queries_quota: 60
+2025-04-21 14:45:39,356 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 14:45:39,371 - market_research_api - INFO - Successfully initialized SQLite database
+2025-04-21 14:45:39,429 - werkzeug - WARNING -  * Debugger is active!
+2025-04-21 14:45:39,448 - werkzeug - INFO -  * Debugger PIN: 395-603-643
+{"timestamp": "2025-04-21T14:45:52.652785", "method": "OPTIONS", "url": "http://localhost:5000/login", "path": "/login", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 14:45:52,730 - market_research_api - INFO - OPTIONS /login
+2025-04-21 14:45:52,732 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 14:45:52] "OPTIONS /login HTTP/1.1" 200 -
+{"timestamp": "2025-04-21T14:45:52.900821", "method": "POST", "url": "http://localhost:5000/login", "path": "/login", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 14:45:52,903 - market_research_api - INFO - POST /login
+2025-04-21 14:45:52,910 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 14:45:52] "POST /login HTTP/1.1" 200 -
+{"timestamp": "2025-04-21T14:45:57.490525", "method": "OPTIONS", "url": "http://localhost:5000/strategies", "path": "/strategies", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 14:45:57,492 - market_research_api - INFO - OPTIONS /strategies
+2025-04-21 14:45:57,510 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 14:45:57] "OPTIONS /strategies HTTP/1.1" 200 -
+{"timestamp": "2025-04-21T14:45:57.804398", "method": "OPTIONS", "url": "http://localhost:5000/strategies", "path": "/strategies", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 14:45:57,807 - market_research_api - INFO - OPTIONS /strategies
+2025-04-21 14:45:57,808 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 14:45:57] "OPTIONS /strategies HTTP/1.1" 200 -
+{"timestamp": "2025-04-21T14:45:57.883590", "method": "GET", "url": "http://localhost:5000/strategies", "path": "/strategies", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 14:45:57,884 - market_research_api - INFO - GET /strategies
+2025-04-21 14:45:57,887 - market_research_api - ERROR - Error listing strategies: no such column: user_id
+2025-04-21 14:45:57,889 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 14:45:57] "[35m[1mGET /strategies HTTP/1.1[0m" 500 -
+{"timestamp": "2025-04-21T14:45:58.222779", "method": "GET", "url": "http://localhost:5000/strategies", "path": "/strategies", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 14:45:58,225 - market_research_api - INFO - GET /strategies
+2025-04-21 14:45:58,226 - market_research_api - ERROR - Error listing strategies: no such column: user_id
+2025-04-21 14:45:58,227 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 14:45:58] "[35m[1mGET /strategies HTTP/1.1[0m" 500 -
+{"timestamp": "2025-04-21T14:47:31.814686", "method": "OPTIONS", "url": "http://localhost:5000/generate-strategy-business", "path": "/generate-strategy-business", "params": {}, "client_ip": "127.0.0.1", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"}
+2025-04-21 14:47:31,816 - market_research_api - INFO - OPTIONS /generate-strategy-business
+2025-04-21 14:47:31,824 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 14:47:31] "[33mOPTIONS /generate-strategy-business HTTP/1.1[0m" 404 -
